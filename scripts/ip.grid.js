@@ -5837,26 +5837,37 @@ function ip_ColSymbol(GridID, col) {
 
 function ip_ColumnSymbols(columns) {
 
-    var keyCounter = 0;
-    var intSymbols = [];
-    var chrSymbols = [];
-    var StartChar = 'A';
-    var loops = columns / 26;
+    var keyCounter = 0,
+		intSymbols = [],
+		chrSymbols = [],
+		loops = columns / 26,
+		maxCols = 1024; // (AMJ)
     
     for (var x = -1; x < loops - 1; x++) {
-        for (var i = 0; i < 26; i++) {
-
-            var code = String.fromCharCode(StartChar.charCodeAt(0) + i);
-            intSymbols[keyCounter] = code;
+        for (var i = 0; i < maxCols; i++) {
+            var code = ip_ColumnSymboldCharCode(i);
+            intSymbols[keyCounter] = code
             chrSymbols[code] = keyCounter;
             keyCounter++;
-
         }
     }
 
     return { colSymbols: intSymbols, symbolCols: chrSymbols };
 }
 
+function ip_ColumnSymboldCharCode(number) {
+    // function to generate unlimited predefined cols
+    var l = '';
+    if(number > 701) {
+        l += String.fromCharCode(64 + parseInt(number / 676));
+        l += String.fromCharCode(64 + parseInt((number % 676) / 26));
+    } else if(number > 25) {
+        l += String.fromCharCode(64 + parseInt(number / 26));
+    }
+    l += String.fromCharCode(65 + (number % 26));
+
+    return l;
+}
 
 //----- INITIALIZATION ------------------------------------------------------------------------------------------------------------------------------------
 
