@@ -1,6 +1,6 @@
-# ipgrid - a native jQuery spreadsheet plugin
+# ip-grid - a native jQuery spreadsheet plugin
 
-Ip.grid is a fully fledged **native jQuery spreadsheet plugin**, designed to look and feel like Google sheets. And as far as I know, is the most comprehensive spreadsheet plugin on the net.
+ip-grid is a fully fledged **native jQuery spreadsheet plugin**, designed to look and feel like Google sheets. And as far as I know, is the most comprehensive spreadsheet plugin on the net.
 
 Development is still in beta so there are a couple of bugs, you can report them on my site: 
 [http://www.roberg.co.za/plugins/ip-spreadsheet)
