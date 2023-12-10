@@ -12,6 +12,7 @@ Development is still in beta so there are a couple of bugs, you can report them 
 $('#demo').ip_Grid({  rows:10000, cols:26 });
 
 ## Demo & Documentation
+For live interactive examples, visit:
 
 [http://www.roberg.co.za/plugins/ip-spreadsheet](http://www.roberg.co.za/plugins/ip-spreadsheet)
 
