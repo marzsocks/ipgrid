@@ -13,7 +13,7 @@ $('#demo').ip_Grid({  rows:10000, cols:26 });
 ## Demo & Documentation
 For live interactive examples, visit:
 
-[https://www.roberg.co.za/plugins/ip-spreadsheet](www.roberg.co.za/plugins/ip-spreadsheet)
+[https://www.roberg.co.za/plugins/ip-spreadsheet](https://www.roberg.co.za/plugins/ip-spreadsheet)
 
 ## Features
 
@@ -59,7 +59,7 @@ For live interactive examples, visit:
 
 ## Copyright & Contact
 
-Demo & Documentation: [https://www.roberg.co.za/plugins/ip-spreadsheet](www.roberg.co.za/plugins/ip-spreadsheet)
+Demo & Documentation: [https://www.roberg.co.za/plugins/ip-spreadsheet](https://www.roberg.co.za/plugins/ip-spreadsheet)
 
 The full contents of this code repository are (C) 2016,2022,2023 by Michael Roberg 
 
