@@ -8,6 +8,8 @@ ip_Grid is a fully fledged **native jQuery spreadsheet plugin**, designed to loo
 
 $('#demo').ip_Grid({  rows:10000, cols:26 });
 
+![ALT TEXT](https://raw.githubusercontent.com/marzsocks/ipgrid/master/Spreadsheet.PNG)
+
 ## Demo & Documentation
 For live interactive examples, visit:
 
