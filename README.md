@@ -1,6 +1,7 @@
 # ip_Grid - a native javascript spreadsheet plugin
 
 ip_Grid is a fully fledged **native javascript spreadsheet plugin**, designed to look and feel like Google sheets. As far as I know, this is the most comprehensive vanilla javascript spreadsheet plugin on the web.
+This tool is designed for larger datasets, when rendering performance is needed.
 
 ***
 
