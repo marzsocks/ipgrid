@@ -10225,7 +10225,7 @@ function ip_ShowColumnFrozenHandle(GridID, AlignOnly) {
                 },
                 stop: FrozenEnd = function (event, ui) {
 
-                    var snappedTo = $.map($(this).data('draggable').snapElements, function (element) {
+                    var snappedTo = $.map($(this).data('ui-draggable').snapElements, function (element) {
                         var col = $(element.item).attr('col');
                         if (col && element.snapping) { return parseInt(col); }
                     });
@@ -10295,7 +10295,7 @@ function ip_ShowRowFrozenHandle(GridID, AlignOnly) {
                 },
                 stop: FrozenEnd = function (event, ui) {
 
-                    var snappedTo = $.map($(this).data('draggable').snapElements, function (element) {
+                    var snappedTo = $.map($(this).data('ui-draggable').snapElements, function (element) {
                         var row = $(element.item).attr('row');
                         if (row && element.snapping) { return parseInt(row); }
                     });

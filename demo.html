@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script src="scripts/ip.grid.js"></script>
     <link href="css/ip.grid.css" rel="stylesheet" />
 
@@ -10,7 +11,7 @@
 
         $(document).ready(function () {
 
-            $('#demo').ip_Grid({ rows: 10000,  cols: 26 });
+            $('#demo').ip_Grid({ rows: 10000, cols: 26 });
 
         });
 
@@ -23,28 +24,32 @@
             background-color: #3d3d3d;
             margin: 0;
             padding: 60px;
-            position:relative;
+            position: relative;
         }
 
-        a { color:#46b3ff; text-decoration:dotted; }
+        a {
+            color: #46b3ff;
+            text-decoration: dotted;
+        }
 
         .gridContainer {
 
-            position:relative;
-            width:700px;
-            height:500px;
+            position: relative;
+            width: 700px;
+            height: 500px;
         }
 
         #demo {
 
-            width:100%;
-            height:100%;
+            width: 100%;
+            height: 100%;
         }
     </style>
 
     <title>ip.grid demo</title>
 
 </head>
+
 <body>
 
     <h1>Spreadsheet Demo</h1>
@@ -52,6 +57,8 @@
     <div class="gridContainer">
         <div id="demo"></div>
     </div>
-    <p>For more usage examples and documentation please <a href="https://www.roberg.co.za/plugins/ip-spreadsheet">click here</a>.</p>
+    <p>For more usage examples and documentation please <a href="https://www.roberg.co.za/plugins/ip-spreadsheet">click
+            here</a>.</p>
 </body>
+
 </html>
