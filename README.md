@@ -1,6 +1,7 @@
-# ip_Grid - a native jQuery spreadsheet plugin
+# ip_Grid - a native javascript spreadsheet plugin
 
-ip_Grid is a fully fledged **native jQuery spreadsheet plugin**, designed to look and feel like Google sheets. As far as I know, this is the most comprehensive vanilla javascript spreadsheet plugin on the web.
+ip_Grid is a fully fledged **native javascript spreadsheet plugin**, designed to look and feel like Google sheets. As far as I know, this is the most comprehensive vanilla javascript spreadsheet plugin on the web.
+This tool is designed for larger datasets, when rendering performance is needed.
 
 ***
 
@@ -13,7 +14,7 @@ $('#demo').ip_Grid({  rows:10000, cols:26 });
 ## Demo & Documentation
 For live interactive examples, visit:
 
-[https://www.roberg.co.za/plugins/ip-spreadsheet](www.roberg.co.za/plugins/ip-spreadsheet)
+[https://www.roberg.co.za/plugins/ip-spreadsheet](https://www.roberg.co.za/plugins/ip-spreadsheet)
 
 ## Features
 
@@ -59,7 +60,7 @@ For live interactive examples, visit:
 
 ## Copyright & Contact
 
-Demo & Documentation: [https://www.roberg.co.za/plugins/ip-spreadsheet](www.roberg.co.za/plugins/ip-spreadsheet)
+Demo & Documentation: [https://www.roberg.co.za/plugins/ip-spreadsheet](https://www.roberg.co.za/plugins/ip-spreadsheet)
 
 The full contents of this code repository are (C) 2016,2022,2023 by Michael Roberg 
 
